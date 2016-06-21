@@ -1,0 +1,40 @@
+/*Variables*/
+h1 {
+  color: #1F70E1;
+}
+p {
+  color: #1F70E1;
+}
+/*Maxis*/
+#columna {
+  background-color: #424242;
+  width: 300px;
+  padding: 10px;
+  /*Using maxis*/
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+.columnas {
+  background-color: #ff8000;
+  width: 500px;
+  padding: 10px;
+  /*Using maxis*/
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  /*Nested block*/
+}
+.columnas p {
+  color: #000;
+  /*Nested block*/
+}
+.columnas p a {
+  text-decoration: underline;
+  color: white;
+}
+/*import*/
+h2 {
+  color: #00FF00;
+}
+/*# sourceMappingURL=estilos.css.map */

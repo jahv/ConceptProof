@@ -1,0 +1,40 @@
+/*Variables*/
+@color_principal: #1F70E1;
+h1 { color: @color_principal; }
+p { color: @color_principal; }
+
+/*Maxis*/
+.borde-redondeado (@radio: 10px) {
+	border-radius: @radio;
+	-webkit-border-radius: @radio;
+	-moz-border-radius: @radio;
+}
+
+#columna {
+	background-color: #424242;
+	width: 300px;
+	padding: 10px;
+	/*Using maxis*/
+	.borde-redondeado;
+}
+
+.columnas {
+	background-color: #ff8000;
+	width: 500px;
+	padding: 10px;
+	/*Using maxis*/
+	.borde-redondeado(50px);
+	
+	/*Nested block*/
+	p {
+		color: #000;
+		/*Nested block*/
+		a {
+			text-decoration: underline;
+			color: white;
+		}
+	}
+}
+
+/*import*/
+@import "import.less";
